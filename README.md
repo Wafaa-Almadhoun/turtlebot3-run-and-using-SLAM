@@ -97,7 +97,7 @@ step 5 : Reload.bashrc
   
   Step 9 :  Now simulating TurtleBot3 by SLAM , This file is used to update  and draw a map of an unknown environment.
   
-          1-  install SLAM module
+     1-  install SLAM module
           
           
             sudo apt install ros-noetic-slam-gmapping
@@ -105,7 +105,7 @@ step 5 : Reload.bashrc
             
             
           
-          2- open Gazebo in a new terminal window
+     2- open Gazebo in a new terminal window
           
           
              roslaunch turtlebot3_gazebo turtlebot3_world.launch
@@ -114,7 +114,7 @@ step 5 : Reload.bashrc
              
              
          
-         3- Start to SLAM 
+     3- Start to SLAM 
          
 
           roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
@@ -122,7 +122,7 @@ step 5 : Reload.bashrc
           
           
   
-         4- Start autonomous navigation 
+     4- Start autonomous navigation 
          
          
           roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
