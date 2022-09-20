@@ -99,18 +99,31 @@ step 5 : Reload.bashrc
   
           1-  install SLAM module
           
+          
             sudo apt install ros-noetic-slam-gmapping
+            
+            
             
           
           2- open Gazebo in a new terminal window
           
+          
              roslaunch turtlebot3_gazebo turtlebot3_world.launch
+             
+             
+             
+             
          
          3- Start to SLAM 
+         
 
           roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+          
+          
+          
   
          4- Start autonomous navigation 
+         
          
           roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
   
