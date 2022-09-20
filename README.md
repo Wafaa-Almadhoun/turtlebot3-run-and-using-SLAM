@@ -84,13 +84,15 @@ step 5 : Reload.bashrc
     
 
  Step 8 :  Now open TurtleBot3 in Gazebo simulator 
+ 
     
             roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
             
             
-     ![burger gazebo ](https://user-images.githubusercontent.com/64277741/191305201-0126e135-94e7-4b05-b912-8123b4d9a869.png)
+ ![burger gazebo ](https://user-images.githubusercontent.com/64277741/191305201-0126e135-94e7-4b05-b912-8123b4d9a869.png)
+ 
 
-      Figure (2): TurtleBot3 in Gazebo simulator with empty world 
+         Figure (2): TurtleBot3 in Gazebo simulator with empty world 
  
   
   Step 9 :  Now simulating TurtleBot3 by SLAM 
