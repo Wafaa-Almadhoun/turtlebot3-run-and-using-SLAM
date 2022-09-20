@@ -95,6 +95,25 @@ step 5 : Reload.bashrc
          Figure (2): TurtleBot3 in Gazebo simulator with empty world 
  
   
-  Step 9 :  Now simulating TurtleBot3 by SLAM 
+  Step 9 :  Now simulating TurtleBot3 by SLAM , This file is used to update  and draw a map of an unknown environment.
   
+          1-  install SLAM module
+          
+            sudo apt install ros-noetic-slam-gmapping
+            
+          
+          2- open Gazebo in a new terminal window
+          
+             roslaunch turtlebot3_gazebo turtlebot3_world.launch
+         
+         3- Start to SLAM 
+
+          roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
   
+         4- Start autonomous navigation 
+         
+          roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
+  
+  ![maping ](https://user-images.githubusercontent.com/64277741/191309375-2fa42780-2e73-46ca-8170-e955da1c54a6.png)
+
+ Figure (3): final mapping output
